@@ -16,7 +16,7 @@ logging.basicConfig(level=logging.INFO)
 async def start_(client: Client, message: Message):
     await message.reply_sticker("CAACAgUAAxkBAAFF-KFg-jaEvlhu_kNknYQjxsuyDvp--AACjAMAAtpWSVeocCICILIfRSAE")
     await message.reply_text(
-        f"""👋🏻 Hallo, Nama saya [{PROJECT_NAME}](https://telegra.ph/file/ed136c19e7f6afddb4912.jpg)
+        f"""👋🏻 Hallo, Nama saya [{PROJECT_NAME}](https://telegra.ph/file/9bc0650d7f60d0618d815.jpg)
 Dikekolah oleh {OWNER}
 ・✦▭▭▭▭✧◦✦◦✧▭▭▭▭✦ ・
 ☑️ Saya memiliki banyak fitur untuk anda yang suka lagu
@@ -31,16 +31,16 @@ Dikekolah oleh {OWNER}
             [
                 [
                     InlineKeyboardButton(
-                        "⚔️ ʙᴀɴᴛᴜᴀɴ", callback_data = f"help+1"),
+                        "⚔️ 𝙃𝙀𝙇𝙋", callback_data = f"help+1"),
                     InlineKeyboardButton(
-                        "ᴛᴀᴍʙᴀʜᴋᴀɴ ➕", url=f"https://t.me/{BOT_USERNAME}?startgroup=true")],
+                        "𝙂𝙍𝙊𝙐𝙋 𝙈𝙀 𝘿𝘼𝙇𝙊 ➕", url=f"https://t.me/{BOT_USERNAME}?startgroup=true")],
                 [
                     InlineKeyboardButton(
-                        "👥 ɢʀᴏᴜᴘ", url=f"https://t.me/{SUPPORT_GROUP}"), 
+                        "👥 𝙂𝙍𝙊𝙐𝙋", url=f"https://t.me/{SUPPORT_GROUP}"), 
                     InlineKeyboardButton(
-                        "ᴄʜᴀɴɴᴇʟ 📣", url=f"https://t.me/{UPDATES_CHANNEL}")],
+                        "𝘾𝙃𝘼𝙉𝙉𝙀𝙇📣", url="https://t.me/DOSTI_GROUP_1234")],
                 [
-                    InlineKeyboardButton("🌟 ɢɪᴛ ʜᴜʙ 🌟", url=f"{SOURCE_CODE}"),
+                    InlineKeyboardButton("🌟 𝘽𝙊𝙏 𝙇𝙄𝙎𝙏🌟", url="https://t.me/MOVIE_CHANNEL_1234"),
                     InlineKeyboardButton("💵 ꜱᴀᴡᴇʀɴʏᴀ", url="https://trakteer.id/kenkansaja/tip")
                 ]        
             ]
@@ -55,10 +55,10 @@ async def gstart(_, message: Message):
         caption=f"""**🔴 {PROJECT_NAME} is online**""",
         reply_markup=InlineKeyboardMarkup(
                   [
-                    [InlineKeyboardButton(text = '🔵 ᴏᴡɴᴇʀ', url = f"t.me/{OWNER}")],
-                    [InlineKeyboardButton(text = '👥 ɢʀᴏᴜᴘ', url=f"https://t.me/{SUPPORT_GROUP}"),
-                     InlineKeyboardButton(text = 'ᴄʜᴀɴɴᴇʟ 📣', url=f"https://t.me/{UPDATES_CHANNEL}")],
-                    [InlineKeyboardButton("🌟 ɢɪᴛ ʜᴜʙ 🌟", url=f"{SOURCE_CODE}"), InlineKeyboardButton("💵 ꜱᴀᴡᴇʀɴʏᴀ", url="https://trakteer.id/kenkansaja/tip")]
+                    [InlineKeyboardButton(text = '🔵 𝙊𝙒𝙉𝙀𝙍', url = "t.me/abhinasroy")],
+                    [InlineKeyboardButton(text = '👥 𝙂𝙍𝙊𝙐𝙋', url=f"https://t.me/{SUPPORT_GROUP}"),
+                     InlineKeyboardButton(text = '𝘾𝙃𝘼𝙉𝙉𝙀𝙇 📣', url="https://t.me/DOSTI_GROUP_1234")],
+                    [InlineKeyboardButton("🌟 𝘽𝙊𝙏 𝙇𝙄𝙎𝙏 🌟", url="https://t.me/MOVIE_CHANNEL_1234"), InlineKeyboardButton("💵 ꜱᴀᴡᴇʀɴʏᴀ", url="https://trakteer.id/kenkansaja/tip")]
                 ]
         ),
     )
@@ -97,11 +97,11 @@ def map(pos):
     elif pos==len(tr.HELP_MSG)-1:
         url = f"https://t.me/{SUPPORT_GROUP}"
         button = [
-            [InlineKeyboardButton(text = '⚔️ ʙᴀɴᴛᴜᴀɴ', callback_data = f"help+1"),
-             InlineKeyboardButton(text = 'ᴛᴀᴍʙᴀʜᴋᴀɴ ➕', url=f"https://t.me/{BOT_USERNAME}?startgroup=true")],
-            [InlineKeyboardButton(text = '👥 ɢʀᴏᴜᴘ', url=f"https://t.me/{SUPPORT_GROUP}"),
-             InlineKeyboardButton(text = 'ᴄʜᴀɴɴᴇʟ 📣', url=f"https://t.me/{UPDATES_CHANNEL}")],
-            [InlineKeyboardButton("🌟 ɢɪᴛ ʜᴜʙ 🌟", url=f"{SOURCE_CODE}"), InlineKeyboardButton("💵 ꜱᴀᴡᴇʀɴʏᴀ", url="https://trakteer.id/kenkansaja/tip")]
+            [InlineKeyboardButton(text = '⚔️ 𝙃𝙀𝙇𝙋', callback_data = f"help+1"),
+             InlineKeyboardButton(text = '𝙂𝙍𝙊𝙐𝙋 𝙈𝙀 𝘿𝘼𝙇𝙊➕', url=f"https://t.me/{BOT_USERNAME}?startgroup=true")],
+            [InlineKeyboardButton(text = '👥 𝙂𝙍𝙊𝙐𝙋', url=f"https://t.me/{SUPPORT_GROUP}"),
+             InlineKeyboardButton(text = '𝘾𝙃𝘼𝙉𝙉𝙀𝙇📣', url="https://t.me/DOSTI_GROUP_1234")],
+            [InlineKeyboardButton("🌟 𝘽𝙊𝙏 𝙇𝙄𝙎𝙏 🌟", url="https://t.me/MOVIE_CHANNEL_1234"), InlineKeyboardButton("💵 ꜱᴀᴡᴇʀɴʏᴀ", url="https://trakteer.id/kenkansaja/tip")]
         ]
     else:
         button = [
@@ -124,10 +124,10 @@ async def admincache(client, message: Message):
       caption="✅ **Bot berhasil dimulai ulang!**\n\n **Daftar admin telah diperbarui**",
       reply_markup=InlineKeyboardMarkup(
                   [
-                    [InlineKeyboardButton(text = '🔵 ᴏᴡɴᴇʀ', url = f"t.me/{OWNER}")],
-                    [InlineKeyboardButton(text = '👥 ɢʀᴏᴜᴘ', url=f"https://t.me/{SUPPORT_GROUP}"),
-                     InlineKeyboardButton(text = 'ᴄʜᴀɴɴᴇʟ 📣', url=f"https://t.me/{UPDATES_CHANNEL}")],
-                    [InlineKeyboardButton("🌟 ɢɪᴛ ʜᴜʙ 🌟", url=f"{SOURCE_CODE}"), InlineKeyboardButton("💵 ꜱᴀᴡᴇʀɴʏᴀ", url="https://trakteer.id/kenkansaja/tip")]
+                    [InlineKeyboardButton(text = '🔵 𝙊𝙒𝙉𝙀𝙍', url = "t.me/abhinasroy")],
+                    [InlineKeyboardButton(text = '👥 𝙂𝙍𝙊𝙐𝙋', url=f"https://t.me/{SUPPORT_GROUP}"),
+                     InlineKeyboardButton(text = '𝘾𝙃𝘼𝙉𝙉𝙀𝙇📣', url="https://t.me/DOSTI_GROUP_1234")],
+                    [InlineKeyboardButton("🌟 𝘽𝙊𝙏 𝙇𝙄𝙎𝙏 🌟", url="https://t.me/MOVIE_CHANNEL_1234"), InlineKeyboardButton("💵 ꜱᴀᴡᴇʀɴʏᴀ", url="https://trakteer.id/kenkansaja/tip")]
                 ]
         ),
     )
@@ -140,47 +140,48 @@ async def ghelp(_, message: Message):
       
 **=>> Memutar Lagu 🎧**
       
-• /play (nama lagu) - Untuk Memutar lagu yang Anda minta melalui youtube
-• /ytplay (nama lagu) - Untuk Memutar lagu yang Anda minta melalui youtube
-• /yt (nama lagu) - Untuk Memutar lagu yang Anda minta melalui youtube
-• /p (nama lagu) - Untuk Memutar lagu yang Anda minta melalui youtube
-• /dplay (nama lagu) - Untuk Memutar lagu yang Anda minta melalui deezer
-• /splay (nama lagu) - Untuk Memutar lagu yang Anda minta melalui jio saavn
-• /player: Buka menu Pengaturan pemain
-• /skip: Melewati trek saat ini
-• /pause: Jeda trek
-• /resume: Melanjutkan trek yang dijeda
-• /end: ​​Menghentikan pemutaran media
-• /current: Menampilkan trek yang sedang diputar
-• /playlist: Menampilkan daftar putar
+**=>> Playing Songs **
       
-Semua Perintah Bisa Digunakan Kecuali Perintah /player /skip /pause /resume  /end Hanya Untuk Admin Grup
+• /play (song name) - To Play the song you requested via youtube
+• /ytplay (song name) - To Play the song you requested via youtube
+• /yt (song name) - To Play the song you requested via youtube
+• /p (song name) - To Play the song you requested via youtube
+• /dplay (song name) - To Play the song you requested via deezer
+• /splay (song name) - To Play the song you requested via jio saavn
+• /player: Open the Player settings menu
+• /skip: Skips the current track
+• /pause: Pause track
+• /resume: Resume a paused track
+• /end: ​​Stops media playback
+• /current: Displays the currently playing track
+• /playlist: Displays a playlist
       
-**==>>Download Lagu 📥**
+All Commands Can Be Used Except Command /player /skip /pause /resume /end Only For Group Admin
       
-• /song [nama lagu]: Unduh audio lagu dari youtube
-
-**=>> Saluran Music Play 🛠**
+**==>>Download Song **
       
-⚪️ Hanya untuk admin grup tertaut:
+• /song [song name]: Download song audio from youtube
+***=>> Music Play Channel **
       
-• /cplay (nama lagu) - putar lagu yang Anda minta
-• /cdplay (nama lagu) - putar lagu yang Anda minta melalui deezer
-• /csplay (nama lagu) - putar lagu yang Anda minta melalui jio saavn
-• /cplaylist - Tampilkan daftar yang sedang diputar
-• /cccurrent - Tampilkan sedang diputar
-• /cplayer - buka panel pengaturan pemutar musik
-• /cpause - jeda pemutaran lagu
-• /cresume - melanjutkan pemutaran lagu
-• /cskip - putar lagu berikutnya
-• /cend - hentikan pemutaran musik
-• /userbotjoinchannel - undang asisten ke obrolan Anda""",
+️ Only for linked group admins:
+      
+• /cplay (song name) - play the song you requested
+• /cdplay (song name) - play the song you requested via deezer
+• /csplay (song name) - play the song you requested via jio saavn
+• /cplaylist - Show currently playing list
+• /cccurrent - Show currently playing
+• /cplayer - open the music player settings panel
+• /cpause - pause song playback
+• /cresume - resume song playback
+• /cskip - play next song
+• /cend - stop music playing
+• /userbotjoinchannel - invite assistants to your chat""",
       reply_markup=InlineKeyboardMarkup(
                   [
-                    [InlineKeyboardButton(text = '🔵 ᴏᴡɴᴇʀ', url = f"t.me/{OWNER}")],
-                    [InlineKeyboardButton(text = '👥 ɢʀᴏᴜᴘ', url=f"https://t.me/{SUPPORT_GROUP}"),
-                     InlineKeyboardButton(text = 'ᴄʜᴀɴɴᴇʟ 📣', url=f"https://t.me/{UPDATES_CHANNEL}")],
-                    [InlineKeyboardButton("🌟 ɢɪᴛ ʜᴜʙ 🌟", url=f"{SOURCE_CODE}"), InlineKeyboardButton("💵 ꜱᴀᴡᴇʀɴʏᴀ", url="https://trakteer.id/kenkansaja/tip")]
+                    [InlineKeyboardButton(text = '🔵 𝙊𝙒𝙉𝙀𝙍', url = "t.me/abhinasroy")],
+                    [InlineKeyboardButton(text = '👥 𝙂𝙍𝙊𝙐𝙋', url=f"https://t.me/{SUPPORT_GROUP}"),
+                     InlineKeyboardButton(text = 𝘾𝙃𝘼𝙉𝙉𝙀𝙇 📣', url="https://t.me/DOSTI_GROUP_1234")],
+                    [InlineKeyboardButton("🌟 𝘽𝙊𝙏 𝙇𝙄𝙎𝙏🌟", url="https://t.me/MOVIE_CHANNEL_1234"), InlineKeyboardButton("💵 ꜱᴀᴡᴇʀɴʏᴀ", url="https://trakteer.id/kenkansaja/tip")]
                 ]
         ),
     )
