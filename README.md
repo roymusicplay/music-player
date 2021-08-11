@@ -14,7 +14,7 @@
 
 # Music-Ken
 <p align="center">
-  <img src="https://telegra.ph/file/c8227ff23fa75b9d2b9f7.jpg">
+  <img src="https://telegra.ph/file/9bc0650d7f60d0618d815.jpg">
 </p>
 <h1 align="center">
   <b>🎶 MUSIK KEN</b>
@@ -35,20 +35,20 @@ ganti aja yang di youtube.py play.py song.py dan channelplay.py yang awalnya
 
 ## TELEGRAM
 
-<b>OWNER [KEN KAN](https://t.me/kenkanasw)</b>
+<b>OWNER [KEN KAN](https://t.me/abhinasroy</b>
 
 <b>GROUP MUSIKKU
-[@musikkugroup](https://t.me/mausikkugroup)</b>
+[@DOSTI_GROUP_1234](https://t.me/DOSTI_GROUP_1234)</b>
 
-<b>CHANNEL MUSIKKU [@musikkuchannel](https://t.me/musikkuchannel)</b>
+<b>CHANNEL MUSIKKU [@abhinasroy](https://t.me/MOVIE_CHANNEL_1234)</b>
 
-<b>TEMUKAN DI TELEGRAM [@Musiksayabot](https://t.me/Musiksayabot)</b>
+<b>TEMUKAN DI TELEGRAM [@abhinasroy](https://t.me/MOVIE_CHANNEL_1234)</b>
 
 
 
 ### 💜 HEROKU
 
-<p align="center"><a href=https://heroku.com/deploy?template=https://github.com/roymusicplay/music-player"><img src="https://img.shields.io/badge/BUAT DI-HEROKU-blue?style=plastic&logo=heroku&logoColor=yellow"width="300"heigh="100" /></a></p>
+<p align="center"><a href="https://heroku.com/deploy?template="https://github.com/roymusicplay/music-player"><img src="https://img.shields.io/badge/BUAT DI-HEROKU-blue?style=plastic&logo=heroku&logoColor=yellow"width="300"heigh="100" /></a></p>
 
 ## DEPLOY RAILWAY
 
