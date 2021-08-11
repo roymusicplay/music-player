@@ -26,12 +26,12 @@
     "SUPPORT_GROUP": {
       "description": "Grup dukungan MusicPlayer Anda tanpa @ [skip ini jika Anda tidak punya]",
       "required": false,
-      "value": "musikkugroup"
+      "value": "DOSTI_GROUP_1234"
     },
     "UPDATES_CHANNEL": {
       "description": "Updates Channel tanpa @ [skip ini jika Anda tidak punya]",
       "required": false,
-      "value": "musikkuchannel"
+      "value": ""
     }, 
     "PROJECT_NAME": {
       "description": "Nama proyek MusicPlayer Anda.",
@@ -53,7 +53,7 @@
     "BG_IMAGE": {
       "description": "Custom Background Play Musik Gunakan Foto yang Transparant format .png / .jpg",
       "required": false,
-      "value": "https://telegra.ph/file/aafce7ef46a06e70f08b8.png"
+      "value": "https://telegra.ph/file/9bc0650d7f60d0618d815.png"
     },        
     "API_ID": {
       "description": "Masukan APP ID Silahkan Ambil dari my.telegram.org/apps atau @Kenkanrobot",
