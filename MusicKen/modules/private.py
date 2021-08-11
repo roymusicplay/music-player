@@ -38,7 +38,7 @@ Dikekolah oleh {OWNER}
                     InlineKeyboardButton(
                         "👥 𝙂𝙍𝙊𝙐𝙋", url=f"https://t.me/{SUPPORT_GROUP}"), 
                     InlineKeyboardButton(
-                        "𝘾𝙃𝘼𝙉𝙉𝙀𝙇📣", url="https://t.me/DOSTI_GROUP_1234")],
+                        "𝘾𝙃𝘼𝙉𝙉𝙀𝙇📣", url="https://t.me/DOSTI_GROUP_1234"),
                 [
                     InlineKeyboardButton("🌟 𝘽𝙊𝙏 𝙇𝙄𝙎𝙏🌟", url="https://t.me/MOVIE_CHANNEL_1234"),
                     InlineKeyboardButton("💵 ꜱᴀᴡᴇʀɴʏᴀ", url="https://trakteer.id/kenkansaja/tip")
@@ -57,7 +57,7 @@ async def gstart(_, message: Message):
                   [
                     [InlineKeyboardButton(text = '🔵 𝙊𝙒𝙉𝙀𝙍', url = "t.me/abhinasroy")],
                     [InlineKeyboardButton(text = '👥 𝙂𝙍𝙊𝙐𝙋', url=f"https://t.me/{SUPPORT_GROUP}"),
-                     InlineKeyboardButton(text = '𝘾𝙃𝘼𝙉𝙉𝙀𝙇 📣', url="https://t.me/DOSTI_GROUP_1234")],
+                     InlineKeyboardButton(text = '𝘾𝙃𝘼𝙉𝙉𝙀𝙇 📣', url="https://t.me/DOSTI_GROUP_1234"),
                     [InlineKeyboardButton("🌟 𝘽𝙊𝙏 𝙇𝙄𝙎𝙏 🌟", url="https://t.me/MOVIE_CHANNEL_1234"), InlineKeyboardButton("💵 ꜱᴀᴡᴇʀɴʏᴀ", url="https://trakteer.id/kenkansaja/tip")]
                 ]
         ),
@@ -100,7 +100,7 @@ def map(pos):
             [InlineKeyboardButton(text = '⚔️ 𝙃𝙀𝙇𝙋', callback_data = f"help+1"),
              InlineKeyboardButton(text = '𝙂𝙍𝙊𝙐𝙋 𝙈𝙀 𝘿𝘼𝙇𝙊➕', url=f"https://t.me/{BOT_USERNAME}?startgroup=true")],
             [InlineKeyboardButton(text = '👥 𝙂𝙍𝙊𝙐𝙋', url=f"https://t.me/{SUPPORT_GROUP}"),
-             InlineKeyboardButton(text = '𝘾𝙃𝘼𝙉𝙉𝙀𝙇📣', url="https://t.me/DOSTI_GROUP_1234")],
+             InlineKeyboardButton(text = '𝘾𝙃𝘼𝙉𝙉𝙀𝙇📣', url="https://t.me/DOSTI_GROUP_1234"),
             [InlineKeyboardButton("🌟 𝘽𝙊𝙏 𝙇𝙄𝙎𝙏 🌟", url="https://t.me/MOVIE_CHANNEL_1234"), InlineKeyboardButton("💵 ꜱᴀᴡᴇʀɴʏᴀ", url="https://trakteer.id/kenkansaja/tip")]
         ]
     else:
@@ -126,7 +126,7 @@ async def admincache(client, message: Message):
                   [
                     [InlineKeyboardButton(text = '🔵 𝙊𝙒𝙉𝙀𝙍', url = "t.me/abhinasroy")],
                     [InlineKeyboardButton(text = '👥 𝙂𝙍𝙊𝙐𝙋', url=f"https://t.me/{SUPPORT_GROUP}"),
-                     InlineKeyboardButton(text = '𝘾𝙃𝘼𝙉𝙉𝙀𝙇📣', url="https://t.me/DOSTI_GROUP_1234")],
+                     InlineKeyboardButton(text = '𝘾𝙃𝘼𝙉𝙉𝙀𝙇📣', url="https://t.me/DOSTI_GROUP_1234"),
                     [InlineKeyboardButton("🌟 𝘽𝙊𝙏 𝙇𝙄𝙎𝙏 🌟", url="https://t.me/MOVIE_CHANNEL_1234"), InlineKeyboardButton("💵 ꜱᴀᴡᴇʀɴʏᴀ", url="https://trakteer.id/kenkansaja/tip")]
                 ]
         ),
@@ -180,7 +180,7 @@ All Commands Can Be Used Except Command /player /skip /pause /resume /end Only F
                   [
                     [InlineKeyboardButton(text = '🔵 𝙊𝙒𝙉𝙀𝙍', url = "t.me/abhinasroy")],
                     [InlineKeyboardButton(text = '👥 𝙂𝙍𝙊𝙐𝙋', url=f"https://t.me/{SUPPORT_GROUP}"),
-                     InlineKeyboardButton(text = 𝘾𝙃𝘼𝙉𝙉𝙀𝙇 📣', url="https://t.me/DOSTI_GROUP_1234")],
+                     InlineKeyboardButton(text = 𝘾𝙃𝘼𝙉𝙉𝙀𝙇 📣', url="https://t.me/DOSTI_GROUP_1234"),
                     [InlineKeyboardButton("🌟 𝘽𝙊𝙏 𝙇𝙄𝙎𝙏🌟", url="https://t.me/MOVIE_CHANNEL_1234"), InlineKeyboardButton("💵 ꜱᴀᴡᴇʀɴʏᴀ", url="https://trakteer.id/kenkansaja/tip")]
                 ]
         ),
